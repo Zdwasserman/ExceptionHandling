@@ -24,7 +24,7 @@ public class Calculator {
         return num / num2;
     }
     public Double squareRoot(Double num) throws ComplexNumberException{
-        if (num < 0) {
+        if (Double.isNaN(Math.sqrt(num)) == true) {
             throw new ComplexNumberException();
         }
         return Math.sqrt(num);
