@@ -44,6 +44,20 @@ public class CalculatorTest {
         assertEquals(expected, actual);
 
     }
+    @Test
+    public void squareRootTest() throws ComplexNumberException {
+        Calculator calc = new Calculator();
+        Double actual = calc.squareRoot(9.0);
+        Double expected = Math.sqrt(9.0);
+        assertEquals(expected, actual);
+    }
+    @Test(expected = ComplexNumberException.class)
+    public void ComplexNumberExceptionTest() throws ComplexNumberException {
+        Calculator calc = new Calculator();
+        Double actual = calc.squareRoot(-16.0);
+        Double expected = null;
+        assertEquals(expected, actual);
+    }
 
 
 }
