@@ -5,16 +5,24 @@ package Wasserman.Zachary.ExceptionHandling;
  */
 public class Calculator {
 
-    public Double add(Double num, Double num2){
+    public Double add(Double num, Double num2) {
         return num + num2;
     }
-    public Double subtract(Double num, Double num2){
+
+    public Double subtract(Double num, Double num2) {
         return num - num2;
     }
-    public Double multiply(Double num, Double num2){
+
+    public Double multiply(Double num, Double num2) {
         return num * num2;
     }
-    public Double divide(Double num, Double num2){
+
+    public Double divide(Double num, Double num2) throws DivideByZeroException {
+        if (num2 == 0) {
+            throw new DivideByZeroException();
+        }
         return num / num2;
     }
+
 }
+

@@ -30,11 +30,19 @@ public class CalculatorTest {
         assertEquals(expected, actual);
     }
     @Test
-    public void divideTest() {
+    public void divideTest() throws Exception {
         Calculator calc = new Calculator();
         Double actual = calc.divide(3.0, 5.0);
         Double expected = 3.0 / 5.0;
         assertEquals(expected, actual);
+    }
+    @Test(expected = DivideByZeroException.class)
+    public void divideExceptionTest() throws DivideByZeroException {
+        Calculator calc = new Calculator();
+        Double actual = calc.divide(3.0, 0.0);
+        Double expected = null;
+        assertEquals(expected, actual);
+
     }
 
 

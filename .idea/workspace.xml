@@ -33,30 +33,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+            <state relative-caret-position="360">
+              <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
               <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#256#257#0" expanded="true" />
-                <element signature="e#289#290#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#375#376#0" expanded="true" />
-                <element signature="e#426#427#0" expanded="true" />
-                <element signature="e#459#460#0" expanded="true" />
+                <element signature="e#171#172#0" expanded="true" />
+                <element signature="e#204#205#0" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+                <element signature="e#380#381#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DivideByZeroException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/DivideByZeroException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+              <folding>
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#255#256#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CalculatorTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ExceptionHandlingTest/CalculatorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+            <state relative-caret-position="415">
+              <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -82,8 +93,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/Calculator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/DivideByZeroException.java" />
         <option value="$PROJECT_DIR$/src/test/java/ExceptionHandlingTest/CalculatorTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/Calculator.java" />
       </list>
     </option>
   </component>
@@ -720,32 +732,44 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1475249158108</updated>
-      <workItem from="1475249159548" duration="1630000" />
+      <workItem from="1475249159548" duration="6408000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculatorTest - 2016.09.30 at 11h 40m 23s.xml">
+    <history-entry file="CalculatorTest - 2016.09.30 at 14h 09m 28s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2016.09.30 at 11h 40m 52s.xml">
+    <history-entry file="CalculatorTest - 2016.09.30 at 14h 11m 02s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2016.09.30 at 11h 42m 44s.xml">
+    <history-entry file="CalculatorTest - 2016.09.30 at 14h 12m 14s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2016.09.30 at 11h 42m 57s.xml">
+    <history-entry file="CalculatorTest - 2016.09.30 at 14h 21m 51s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest - 2016.09.30 at 11h 44m 16s.xml">
+    <history-entry file="CalculatorTest - 2016.09.30 at 14h 24m 10s.xml">
       <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="CalculatorTest_addTest - 2016.09.30 at 11h 39m 27s.xml">
-      <configuration name="CalculatorTest.addTest" configurationId="JUnit" />
+    <history-entry file="CalculatorTest - 2016.09.30 at 15h 30m 02s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2016.09.30 at 15h 43m 22s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2016.09.30 at 15h 43m 40s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2016.09.30 at 15h 44m 31s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CalculatorTest - 2016.09.30 at 15h 44m 38s.xml">
+      <configuration name="CalculatorTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1630000" />
+    <option name="totallyTimeSpent" value="6408000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-357" y="-1080" width="1920" height="1080" extended-state="0" />
@@ -806,29 +830,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/Calculator.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/ExceptionHandlingTest/CalculatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+        <state relative-caret-position="415">
+          <caret line="41" column="42" selection-start-line="41" selection-start-column="42" selection-end-line="41" selection-end-column="42" />
           <folding>
-            <element signature="e#170#171#0" expanded="true" />
-            <element signature="e#203#204#0" expanded="true" />
-            <element signature="e#256#257#0" expanded="true" />
-            <element signature="e#289#290#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#375#376#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-            <element signature="e#459#460#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ExceptionHandlingTest/CalculatorTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/DivideByZeroException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
+        <state relative-caret-position="75">
+          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Wasserman/Zachary/ExceptionHandling/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="5" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="e#171#172#0" expanded="true" />
+            <element signature="e#204#205#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#380#381#0" expanded="true" />
           </folding>
         </state>
       </provider>
